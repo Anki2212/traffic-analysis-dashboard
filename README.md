@@ -1,6 +1,6 @@
 # Network Traffic Analysis and Resource Allocation
 
-This repository contains a data analysis and machine learning project focused on network traffic analysis and resource allocation. The project includes both a Python-based analysis and an interactive dashboard developed using Streamlit.
+This project presents a data-driven approach to analyzing network traffic patterns and optimizing resource allocation using data analytics and machine learning techniques. It includes both exploratory analysis and an interactive dashboard developed using Streamlit.
 
 ---
 
@@ -10,12 +10,30 @@ To perform a comprehensive analysis of network traffic data in order to understa
 
 ---
 
+## Project Architecture
+
+- Data Collection and Loading
+- Data Preprocessing and Cleaning
+- Feature Engineering (Slice, Weight, Allocation)
+- Exploratory Data Analysis (EDA)
+- Machine Learning Model (Decision Tree Regressor)
+- Dashboard Development (Streamlit)
+- Insights and Conclusion
+
+---
+
+## Dataset Information
+
+The dataset used in this project contains traffic-related information. The original column "passengers" is transformed into "Traffic_Demand" for analysis. Additional features such as Slice type, Weight, and Allocated Bandwidth are generated during preprocessing.
+
+---
+
 ## Key Performance Indicators (KPIs)
 
-* **Total Traffic Demand**: The overall network traffic generated
-* **Average Traffic Demand**: The average traffic across all observations
-* **Maximum Traffic Demand**: The peak traffic value observed
-* **Total Allocated Bandwidth**: The total bandwidth distributed across slices
+* **Total Traffic Demand**: Total traffic generated across all slices
+* **Average Traffic Demand**: Mean traffic across observations
+* **Maximum Traffic Demand**: Peak traffic value observed
+* **Total Allocated Bandwidth**: Total bandwidth distributed across slices
 * **Allocation Efficiency**: Measure of how effectively resources are allocated
 
 ---
@@ -125,6 +143,22 @@ To perform a comprehensive analysis of network traffic data in order to understa
 * Traffic patterns are dynamic and fluctuate over time
 * Weighted allocation improves resource efficiency
 * Machine learning enables predictive resource allocation
+
+---
+## Limitations
+
+- The dataset is simplified and does not represent real-world telecom complexity
+- The model uses limited features for prediction
+- Allocation strategy is based on assumptions and simulated weights
+
+---
+
+## Future Improvements
+
+- Use real-world telecom datasets
+- Implement advanced machine learning models
+- Add real-time data processing
+- Integrate Power BI for business-level visualization
 
 ---
 
