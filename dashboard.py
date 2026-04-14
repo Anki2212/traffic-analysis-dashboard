@@ -67,11 +67,11 @@ filtered_df = df[
 ]
 
 # -------------------- DATASET VIEW --------------------
-with st.expander("📂 View Dataset"):
+with st.expander(" View Dataset"):
     st.write(df.head(50))
 
 # -------------------- TABS --------------------
-tab1, tab2, tab3 = st.tabs(["📊 Analysis", "📈 Trends", "🤖 Prediction"])
+tab1, tab2, tab3 = st.tabs([" Analysis", " Trends", " Prediction"])
 
 # -------------------- TAB 1: ANALYSIS --------------------
 with tab1:
